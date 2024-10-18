@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8e2f0;
+    margin: 20px;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(238, 48, 48) ;
+    text-align: center;
+}
+
+p {
+    color: rgb(188, 88, 96);
+    font-size: var(--font-size-xsmall);
+    text-align: center;
+}
+
+
+button[id="save-btn"] {
+    background-color: #eee352;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    width: 30%;
+  
+  }
+
+  button[id="save-btn"]:hover {
+    background-color: #204e1c;
+  }
+
+  button[id="clear-btn"] {
+    background-color: #aaa7a37a;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    width: 30%;
+  
+  }
+
+  
+  button[id="clear-btn"]:hover {
+    background-color: #751c1c;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: x-large;
+    justify-content: center;
+    background-color: whitesmoke;
+
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e6e5f0;
+  }
+form{
+    background-color: rgb(205, 109, 109);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    
+}

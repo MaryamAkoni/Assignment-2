@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage-Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+
+    <h1>Welcome User!</h1>
+
+    <br><br>
+    <br><br>
+
+
+    <form id="username">
+       <br>
+        <label for="name">Please Enter Your Preferred Username:</label>
+        <br><br>
+        <input type="text" id="name" name="name">
+        <span class="error" id="nameError"></span> <!-- For displaying error messages -->
+        <br><br>
+    
+        <button id="save-btn" type="submit" onclick="alert('Name Saved')">Save Name</button>
+        <button id="clear-btn" type="submit" onclick="alert('Name Cleared')">Clear Name</button>
+    
+        
+    </form>
+<br><br>
+
+    <p id="successMessage" class="success"></p> 
+
+  
+</body>
+</html>
